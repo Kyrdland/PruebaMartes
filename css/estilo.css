@@ -1,0 +1,26 @@
+body{
+	width: 100vw;
+	height: 100vw;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.general {
+	background: #E5E5E5;
+}
+
+.grupo_tabla,
+.grupo{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	border-radius: 5px;
+}
+
+.grupo {
+
+}
